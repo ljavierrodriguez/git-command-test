@@ -8,6 +8,7 @@
     $ git add -A
     $ git add .
     $ git add *
+    $ git add * -f // force
 
 ### Guardar Archivos en el repositorio
 
@@ -55,3 +56,13 @@
 ### Bajar los cambios al repositorio local
 
     $ git pull <remote> <branch>
+
+
+### Clonar un repositorio 
+
+    $ git clone <url-repo>
+    $ git clone -b <branch> <url-repo>
+
+### Bajar todos las ramas(branch)
+
+    $ git fetch
