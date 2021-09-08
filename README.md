@@ -33,3 +33,25 @@
 ### Cambiar de Rama (branch)
 
     $ git checkout <branch>
+
+### Reset HEAD
+
+    $ git reset --soft <hash>
+
+### Unir ramas(branch) con merge
+
+    $ git merge <rama-origen> <rama-destino>
+
+### Repositorio Remoto
+
+    $ git remote add <name> <url-repo-remoto>
+    $ git remote set-url <name> <url-repo-remoto>
+    $ git remote rm <name>
+
+### Subir los cambios al repositorio remoto
+
+    $ git push <remote> <branch>
+
+### Bajar los cambios al repositorio local
+
+    $ git pull <remote> <branch>
