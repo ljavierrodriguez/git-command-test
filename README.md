@@ -25,3 +25,11 @@
 ### Crear una Rama
 
     $ git branch <branch-name>
+
+### Mostrar todas las ramas(branch) existentes
+
+    $ git branch
+
+### Cambiar de Rama (branch)
+
+    $ git checkout <branch>
